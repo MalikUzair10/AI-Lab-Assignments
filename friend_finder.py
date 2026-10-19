@@ -15,7 +15,7 @@ def bfs_shortest_path(graph, start, goal):
                 visited.append(friend)
                 queue.append(path + [friend])
 
-    return []
+    return None
 
 
 network = {
